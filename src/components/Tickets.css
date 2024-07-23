@@ -1,0 +1,110 @@
+/* Tickets.css */
+
+.container {
+    padding: 1rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.total-tickets-box {
+    background-color: #1e40af;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    display: inline-block;
+}
+
+.total-tickets {
+    color: white;
+    font-weight: bold;
+}
+
+.compress-all-btn {
+    background-color: #1e40af;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.compress-all-btn:disabled {
+    background-color: grey;
+    cursor: not-allowed;
+}
+
+.compress-all-btn.enabled:hover {
+    background-color: #000000;
+    border-color: #1e40af;
+}
+
+.ticket-card {
+    border: 1px solid #4a4a4a;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #2d2d2d;
+    color: white;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+.ticket-card .info {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.ticket-card .info .info-item {
+    margin-right: 2rem;
+}
+
+.ticket-card .info .info-item .key {
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+}
+
+.ticket-card .info .info-item .value {
+    font-size: 14px;
+    color: #9ca3af; /* Different color for values */
+}
+
+.ticket-card .btn-container {
+    display: flex;
+    align-items: center;
+}
+
+.ticket-card .btn {
+    background-color: #1e40af;
+    font-size: 14px;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    margin-left: 2rem;
+    border-width: 2px;
+    border-color: #1e40af;
+}
+
+.ticket-card .btn:hover {
+    background-color: #000000;
+    border-color: #1e40af;
+}
+
+.ticket-card .btn.view-btn {
+    margin-left: 0;
+}
